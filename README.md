@@ -1,7 +1,7 @@
 ## FMDementia
 ### Foundation AI Models for Reliable MRI-Based Dementia Detection
 
-This project implements a reliable and interpretable MRI-based Dementia detection framework using pre-trained foundation AI models such as Vision Transformers (ViT, 3D-Swin Transformer) and large-scale medical imaging encoders (Uni-Encoder, MedSAM). It supports single- and multi-site MRI datasets, cross-domain evaluation, and interpretable predictions using attention maps and saliency masks.
+This project implements a reliable MRI-based Dementia detection framework using pre-trained foundation AI models such as Vision Transformers (ViT, 3D-Swin Transformer) and large-scale medical imaging encoders (Uni-Encoder, MedSAM). 
 
 ### Features
 
@@ -71,14 +71,6 @@ deactivate
 
 ### Sample Output
 
-#### Label Summary
-
--------------
-Label |	Count
--------------
-HC	  | 100
-DM	  | 64
-
 #### Experimental results on OASIS-1 and OASIS-2 datasets using 5-fold cross-validation
 
 | Dataset    |	Accuracy |	Precision |	Recall    |	F1-score |	AUC-ROC |
@@ -93,16 +85,6 @@ DM	  | 64
 |-------------------|-----------|-----------|-----------|------------|----------|
 | OASIS-1 / OASIS-2 |  89.2%	  |  88.5%	  |  87.8%	  |  88.1%	   |  92.5%   |
 | OASIS-2 / OASIS-1	|  90.1%	  |  89.4%	  |  88.7%	  |  89.0%	   |  91.3%   |
-
-### Adding New Datasets
-
-#### Add MRI scans to a new dataset folder.
-
-Update get_diagnosis_label() in model.py with rules for the new dataset.
-
-Ensure labels match supported classes: DM, HC.
-
-Run python model.py to include the dataset in training and evaluation.
 
 ### License
 
