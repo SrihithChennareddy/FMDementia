@@ -54,7 +54,7 @@ python --version
 
 ```bash
 pip install --upgrade pip
-pip install pandas numpy scikit-learn torch tqdm transformers datasets accelerate
+pip install pandas numpy scikit-learn torch torchvision tqdm pillow
 ```
 
 #### Run the model
