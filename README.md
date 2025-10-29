@@ -1,5 +1,5 @@
 ## FMDementia
-** Foundation AI Models for Reliable MRI-Based Dementia Detection
+**Foundation AI Models for Reliable MRI-Based Dementia Detection**
 
 This project implements a reliable and interpretable MRI-based Dementia detection framework using pre-trained foundation AI models such as Vision Transformers (ViT, 3D-Swin Transformer) and large-scale medical imaging encoders (Uni-Encoder, MedSAM). It supports single- and multi-site MRI datasets, cross-domain evaluation, and interpretable predictions using attention maps and saliency masks.
 
