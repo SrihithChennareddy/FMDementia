@@ -23,7 +23,6 @@ This project implements a reliable and interpretable MRI-based Dementia detectio
 - pandas
 - numpy
 - tqdm
-- openpyxl
 
 ### Quick Start
 
@@ -55,7 +54,7 @@ python --version
 
 ```bash
 pip install --upgrade pip
-pip install pandas numpy scikit-learn torch tqdm transformers datasets accelerate openpyxl
+pip install pandas numpy scikit-learn torch tqdm transformers datasets accelerate
 ```
 
 #### Run the model
@@ -82,7 +81,7 @@ DM	  | 64
 
 #### 5-Fold Cross-Validation Performance (OASIS-1 / OASIS-2)
 
-#### Dataset |	Accuracy |	Precision |	Recall    |	F1-score |	AUC-ROC |
+| Dataset    |	Accuracy |	Precision |	Recall    |	F1-score |	AUC-ROC |
 |------------|-----------|------------|-----------|----------|----------|
 | OASIS-1	   |  92.5%	   |  91.8%	    |  91.0%	  |  91.4%	 |  95.0%   |
 | OASIS-2	   |  90.5%	   |  89.8%	    |  89.2%	  |  89.4%	 |  89.0%   |
@@ -90,7 +89,7 @@ DM	  | 64
 
 #### Cross-Domain Evaluation
 
-#### Train / Test   |	 Accuracy |	Precision |	Recall    |	F1-score   |	AUC-ROC |
+| Train / Test      |	 Accuracy |	Precision |	Recall    |	F1-score   |	AUC-ROC |
 |-------------------|-----------|-----------|-----------|------------|----------|
 | OASIS-1 / OASIS-2 |  89.2%	  |  88.5%	  |  87.8%	  |  88.1%	   |  92.5%   |
 | OASIS-2 / OASIS-1	|  90.1%	  |  89.4%	  |  88.7%	  |  89.0%	   |  91.3%   |
