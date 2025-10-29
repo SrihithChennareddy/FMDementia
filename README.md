@@ -74,23 +74,28 @@ deactivate
 
 #### Label Summary
 
-Label	Count
-HC	100
-DM	64
+-------------
+Label |	Count
+-------------
+HC	  | 100
+DM	  | 64
 
 #### 5-Fold Cross-Validation Performance (OASIS-1 / OASIS-2)
 
-#### Dataset	Accuracy	Precision	Recall	F1-score	AUC-ROC
-OASIS-1	92.5%	91.8%	91.0%	91.4%	95.0%
-OASIS-2	90.5%	89.8%	89.2%	89.4%	89.0%
-Average	91.5%	90.8%	90.1%	90.4%	92.0%
+#### Dataset |	Accuracy |	Precision |	Recall    |	F1-score |	AUC-ROC |
+|------------|-----------|------------|-----------|----------|----------|
+| OASIS-1	   |  92.5%	   |  91.8%	    |  91.0%	  |  91.4%	 |  95.0%   |
+| OASIS-2	   |  90.5%	   |  89.8%	    |  89.2%	  |  89.4%	 |  89.0%   |
+| **Average**|  91.5%	   |  90.8%	    |  90.1%	  |  90.4%	 |  92.0%   |
 
 #### Cross-Domain Evaluation
 
-Train / Test	Accuracy	Precision	Recall	F1-score	AUC-ROC
-OASIS-1 / OASIS-2	89.2%	88.5%	87.8%	88.1%	92.5%
-OASIS-2 / OASIS-1	90.1%	89.4%	88.7%	89.0%	91.3%
-Adding New Datasets
+#### Train / Test   |	 Accuracy |	Precision |	Recall    |	F1-score   |	AUC-ROC |
+|-------------------|-----------|-----------|-----------|------------|----------|
+| OASIS-1 / OASIS-2 |  89.2%	  |  88.5%	  |  87.8%	  |  88.1%	   |  92.5%   |
+| OASIS-2 / OASIS-1	|  90.1%	  |  89.4%	  |  88.7%	  |  89.0%	   |  91.3%   |
+
+### Adding New Datasets
 
 #### Add MRI scans to a new dataset folder.
 
