@@ -79,7 +79,7 @@ Label |	Count
 HC	  | 100
 DM	  | 64
 
-#### 5-Fold Cross-Validation Performance (OASIS-1 / OASIS-2)
+#### Experimental results on OASIS-1 and OASIS-2 datasets using 5-fold cross-validation
 
 | Dataset    |	Accuracy |	Precision |	Recall    |	F1-score |	AUC-ROC |
 |------------|-----------|------------|-----------|----------|----------|
