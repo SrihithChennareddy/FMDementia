@@ -60,7 +60,7 @@ pip install pandas numpy scikit-learn torch tqdm transformers datasets accelerat
 #### Run the model
 
 ```bash
-python model.py
+python models/model.py
 ```
 
 #### Deactivate the environment when done
