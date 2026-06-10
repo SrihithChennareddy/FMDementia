@@ -3,6 +3,8 @@
 
 This project implements a reliable MRI-based Dementia detection framework using pre-trained foundation AI models such as Vision Transformers (ViT, 3D-Swin Transformer) and large-scale medical imaging encoders (Uni-Encoder, MedSAM). 
 
+IEEE Xplore : https://ieeexplore.ieee.org/document/11385905
+
 ### Features
 
 - Preprocessing and standardized MRI pipeline (skull stripping, intensity normalization, affine registration)
